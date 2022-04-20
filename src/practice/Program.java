@@ -4,7 +4,13 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        int intVariableFirst = 10;
+        int intVariableSecond = 10;
+        int va = 10;
+        int v = intVariableFirst + intVariableFirst;
+
+    }
 
 
 //        boolean a1 = (5 > 6) || (4 < 6); // 5 > 6 - false, 4 < 6 - true, поэтому возвращается true
@@ -71,19 +77,17 @@ public class Program {
 //        System.out.println(nums[3]);
 
 
-
-
-  //      int[] array = {1, 2, 3, 5, 7, 9};
-        int [] array = new int[] {9, 2, 6, 4, 5, 12, 7, 8, 6};
-            int sum = 0;
-            for (int i = 0; i < array.length; i++) {
-                sum = sum + array[i];
-            }
-            System.out.println(sum);
-        }
+    //      int[] array = {1, 2, 3, 5, 7, 9};
+//        int [] array = new int[] {9, 2, 6, 4, 5, 12, 7, 8, 6};
+//            int sum = 0;
+//            for (int i = 0; i < array.length; i++) {
+//                sum = sum + array[i];
+//            }
+//            System.out.println(sum);
+//        }
 
 //            array[i] = array[i]
-        }
+}
 
 
 //        int[] nums1 = new int[] { 8, 23, 70, 46, 25, 85 };
@@ -92,9 +96,8 @@ public class Program {
 //            System.out.println(nums1[i]);
 
 
-       //     System.out.print(nums1[i] + " ");
-      //      System.out.println(nums1[i]);
-
+//     System.out.print(nums1[i] + " ");
+//      System.out.println(nums1[i]);
 
 
 //        int[][] nums2 = { { 0, 111, 2 }, { 3, 4, 5, 40 } };
@@ -107,8 +110,9 @@ public class Program {
 //        int last = nums[nums.length - 2];
 //        System.out.println(Arrays.toString(nums));
 //        int[] nums2 = nums;
- //       nums2[0] = 88;
+//       nums2[0] = 88;
 //        System.out.println(Arrays.toString(nums));
 //        System.out.println(nums2);
+
 
 
